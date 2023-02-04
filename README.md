@@ -1,2 +1,3 @@
-# todo-list
-A perfect react+redux example
+# Todo-List
+
+For React-redux tutorial
