@@ -7,3 +7,10 @@ export function updateUserName (username: string): Action {
     payload: username
   }
 }
+
+export function logout (): Action {
+  return {
+    type: ActionType.Logout,
+    payload: null
+  }
+}

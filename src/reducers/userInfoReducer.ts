@@ -13,6 +13,12 @@ export function userInfoReducer (state: UserInfo = initState, action: Action): U
         name: action.payload
       }
     }
+    case ActionType.Logout: {
+      return {
+        ...state,
+        ...initState
+      }
+    }
   }
   return state
 }
