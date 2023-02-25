@@ -1,4 +1,7 @@
 export enum ActionType {
   UpdateUserName,
-  Logout
+  Logout,
+  newTodo,
+  finishTodo,
+  deleteTodo
 }
